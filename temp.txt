@@ -5,4 +5,9 @@ sudo service nginx restart
 _ _ _
 git clone https://github.com/Alexander-mln/web.git /home/box/web
 bash /home/box/web/init.sh
+
 include /home/box/web/etc/nginx.conf;
+
+sudo /etc/init.d/nginx start
+/etc/nginx/nginx.conf
+/var/run/nginx.pid
